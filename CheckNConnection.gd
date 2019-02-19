@@ -24,7 +24,7 @@ func start_check():
 		check_timer.start()
 
 func _check_connection():
-	request("http://www.google.com")
+	request("http://www.google.com") # This  is only test address. You need to change your trusted and believing return success address...
 
 func on_request_result(result, response_code, headers, body):
 	match result:
